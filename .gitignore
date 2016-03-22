@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+*.pro.user
+Makefile
+moc_*
+ui_*
+qrc_*
+travis_qmake_gcc_cpp14_qt
