@@ -14,6 +14,8 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Code coverage: none
  * Source: QDialog with Qt resource file
 
+The project creates an image file, called [HelloWorld.png](HelloWorld.png).
+
 Less complex builds:
  * C++98: [travis_qmake_gcc_cpp98_qt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_qt)
  * C++11: [travis_qmake_gcc_cpp11_qt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_qt)

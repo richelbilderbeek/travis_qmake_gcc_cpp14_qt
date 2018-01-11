@@ -9,4 +9,6 @@ install:
   - sudo apt-get install -qq g++-5 # C++14
 
 script: 
-  - ./build.sh
+  - qmake
+  - make
+  - ./travis_qmake_gcc_cpp14_qt
