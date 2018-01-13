@@ -4,13 +4,13 @@ TEMPLATE = app
 
 SOURCES += main.cpp
 
-RESOURCES += \
-    travis_qmake_gcc_cpp14_qt.qrc
+RESOURCES += travis_qmake_gcc_cpp14_qt.qrc
+
+# Compile with high warning levels, a warning is an error
+QMAKE_CXXFLAGS += -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Weffc++ -Werror
 
 # C++14
-QMAKE_CXX = g++-5
-QMAKE_LINK = g++-5
-QMAKE_CC = gcc-5
+CONFIG += c++14
 QMAKE_CXXFLAGS += -std=c++14
 
 # Thanks to Qt 
